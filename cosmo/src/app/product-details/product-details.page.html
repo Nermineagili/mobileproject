@@ -1,0 +1,22 @@
+
+<ion-content *ngIf="product" class="background-color">
+  <!-- Display product details -->
+  <button (click)="goBack()">
+    <ion-icon name="arrow-back"></ion-icon>
+  </button>
+
+  <ion-card-header>
+      <br><br><br>
+      <ion-card-title>{{ product.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-img [src]="product.imageUrl" alt="Product Image" class="product-image"></ion-img>
+      <br><br><br><br>
+      <p>{{ product.description }}</p>
+      <!-- Add more details if needed -->
+    </ion-card-content>
+    <ion-button  class="custom-button">Add to my bag</ion-button>
+
+  
+</ion-content>
+<app-custom-tab-bar></app-custom-tab-bar>

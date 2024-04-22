@@ -1,0 +1,41 @@
+<ion-content [fullscreen]="true" class="background-color">
+  <div class="login-container">
+    <button  class="back-button" fill="clear">
+      <ion-icon name="arrow-back" (click)="goToSignupPage()"></ion-icon>
+    </button>
+    <span class="login-text"></span>
+  </div>
+  <div class="login-text-container">
+    <p class="login-text">Log in </p><br>
+    <p class="login-text">Welcome back !</p>
+  </div>
+
+  <!-- Rectangular white boxes for input fields -->
+  
+  <div class="input-field-container">
+    <div class="input-label">Email:</div>
+    <ion-input class="input-field" placeholder="Email"></ion-input>
+  </div>
+  <div class="input-field-container">
+    <div class="input-label">Password:</div>
+    <ion-input class="input-field" placeholder="Password"></ion-input>
+  </div>
+  <a class="forgot-password-link">Forgot password ?</a>
+
+
+ 
+
+  
+  
+  <ion-button  class="custom-button">Log in</ion-button>
+   
+
+  
+    <!-- "Already have an account? Log in" section -->
+    <div  class="signup-link-container" >
+      <span class="already-have-account">Don't have an account ? </span>
+      <a class="signuplink" (click)="goToSignupPage()" >Sign up</a>
+    </div>
+ 
+    
+</ion-content>

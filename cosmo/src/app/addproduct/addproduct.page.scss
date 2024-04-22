@@ -1,0 +1,96 @@
+ion-content {
+    --background: #D9D9D9;
+  }
+  
+  .input-box1 {
+    margin-bottom: 10px;
+    background-color: #f0f0f0; /* Change the background color as desired */
+    border-radius: 5px; /* Adjust the border radius for rounded corners */
+    padding: 5px; /* Add padding inside the box */
+    width: 80%;
+    left: 50%;
+    margin-left: 25px; /* Change the distance from the left as needed */
+    margin-top: 30%;
+
+}
+.input-box2 {
+    margin-bottom: 10px;
+    background-color: #f0f0f0; /* Change the background color as desired */
+    border-radius: 5px; /* Adjust the border radius for rounded corners */
+    padding: 5px; /* Add padding inside the box */
+    width: 80%;
+    left: 50%;
+    margin-left: 25px; /* Change the distance from the left as needed */
+    margin-top: 15%;
+
+}
+
+  
+  .primary-input {
+    border: none; /* Remove default input border */
+    width: 100%; /* Set input width to fill the box */
+    background: transparent; /* Make the input background transparent */
+    font-size: 16px; /* Adjust font size */
+    color: #333; /* Adjust text color */
+  }
+  .title {
+    color: #0c0c0c; /* Change text color */
+    font-size: 30px; /* Change font size */
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+  .custom-button {
+    --ion-color-base:#7B6CDB;
+    width: 50%;
+    height: 10%;
+    font-size: 15px; /* Adjust font size as needed */
+    border-radius: 15px; /* Adjust border radius as needed */
+    margin-left: 25%;
+    margin-top: 20%;
+    background-color: #7B6CDB;
+  }
+  .rectangle {
+    width: 200px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Rectangle background color */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+  }
+  
+  .colored-phrase {
+    color: rgb(15, 15, 15); /* Text color */
+    font-size: 8px; /* Font size */
+  }
+  .file-input-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+  
+  .file-input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  
+  .custom-file-input {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #7B6CDB; /* Change button background color */
+    color: #fff; /* Change button text color */
+    border-radius: 5px; /* Adjust border radius as needed */
+    cursor: pointer;
+  }
+  
+  /* Hover styles for the custom file input */
+  .custom-file-input:hover {
+    background-color: #6457a6; /* Change hover background color */
+  }

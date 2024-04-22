@@ -1,0 +1,119 @@
+.background-color {
+    --ion-background-color: #D9D9D9; /* Set your desired background color */
+  }
+  
+  ion-icon {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: black; /* Black color for the icon */
+  }
+  
+  .login-text {
+    font-size: 20px; /* Adjust font size as needed */
+    color: black; /* Black color for the text */
+    cursor: pointer;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button {
+    margin-right: 10px; /* Add space between button and text */
+  }
+  
+  .signup-text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust spacing */
+  }
+  
+  .signup-text {
+    font-size: 20px; /* Adjust font size as needed */
+    color: black; /* Black color for the text */
+  }
+  
+  .input-field-container {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-label {
+    color: black; /* Black color for the label */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 5px; /* Add some bottom margin for spacing */
+  }
+  
+  .input-field {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    color: black; /* Black color for the text */
+  }
+  
+  .custom-button {
+    margin: 20px auto; /* Ajoute un espace en haut et en bas et centre horizontalement */
+    width: 90%; /* Largeur maximale */
+    max-width: 400px; /* Largeur maximale de 400px */
+    border-radius: 20 px;
+  }
+  ion-button.custom-button {
+    --background: #7B6CDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // Background color // Background color
+    color: white; // Text color
+    border-radius: 12 px;
+    
+  }
+  .login-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre les éléments horizontalement */
+    margin-top: 20px; /* Ajustez l'espace supérieur selon vos besoins */
+  }
+  .login-text {
+    font-size: 25px;
+    color: black;
+  }
+  ion-icon {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white; /* White color for the icon */
+  }
+  .already-have-account {
+    color: black; /* Black color for the text */
+  }
+  .signup-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .signuplink {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 5px; /* Add some space between the text and the link */
+  }
+  .forgot-password-link {
+    color: black; /* Black color for the text */
+    text-decoration: underline; /* Underline style */
+    display: block; /* Make it a block element */
+    text-align: center; /* Center align the text */
+    margin-top: 10px; /* Adjust top margin as needed */
+    font-weight: bold;
+  }
+  
+  

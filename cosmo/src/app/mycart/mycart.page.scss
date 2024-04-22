@@ -1,0 +1,57 @@
+.background-color {
+  --ion-background-color: #D9D9D9; /* Set the background color for the entire page */
+}
+
+ion-button.custom-button {
+  --background: #7B6CDB;
+  display: flex;
+  align-items: center;
+  color: black; /* Text color */
+}
+
+ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+ion-content.background-color {
+  --ion-background-color: #D9D9D9; /* Set the background color for the entire page */
+}
+
+ion-list.custom-list {
+  --ion-background-color: transparent !important; /* Set the background color for the list */
+}
+
+ion-item.item-background {
+  --ion-background-color: transparent !important; /* Set the background color for the list items */
+}
+
+.cart-title {
+  text-align: center;
+  margin-top: 20px;
+  color: black; /* Text color */
+}
+
+ion-item {
+  --padding-end: 0;
+}
+
+ion-label {
+  flex: 1;
+  color: black; /* Text color */
+}
+
+ion-button[slot="end"] {
+  margin-left: auto;
+}
+
+.custom-button {
+  margin: 20px auto; /* Ajoute un espace en haut et en bas et centre horizontalement */
+  width: 90%; /* Largeur maximale */
+  max-width: 400px; /* Largeur maximale de 400px */
+  border-radius: 20px;
+  color: white; /* Text color */
+}

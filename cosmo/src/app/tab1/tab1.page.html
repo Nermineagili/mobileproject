@@ -1,0 +1,18 @@
+<ion-content [fullscreen]="true" class="background-color">
+  <h2 class="search-heading">Search product</h2>
+  <div class="header-container">
+    <app-search-bar class="search-bar"></app-search-bar>
+    <button ion-button clear (click)="goToCartPage()" class="cart-button">
+      <ion-icon name="cart" class="cart-icon"></ion-icon>
+    </button>
+  </div>
+  <!-- Product Grid -->
+  <div class="product-grid">
+    <div class="product" *ngFor="let product of products" >
+      <img [src]="product.imageUrl" alt="Product Image" (click)="goToProductDetailsPage(product)">
+      <button ion-button clear class="heart-button" (click)="addToFavorites(product)">
+        <ion-icon name="heart" class="heart-icon"></ion-icon>
+      </button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true" class="background-color">
+  <div class="header">
+    <button (click)="goBack()" class="back-button">
+      <ion-icon name="arrow-back"></ion-icon>
+    </button>
+    <h1 class="cart-title">myCart</h1>
+  </div>
+
+  <!-- Display the list of cart items -->
+  <div class="custom-list">
+    <div *ngFor="let item of cartItems" class="cart-item">
+      <ion-thumbnail slot="start">
+        <ion-img [src]="item.imageUrl"></ion-img>
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ item.name }}</h2>
+        <p>Price: {{ item.price }}</p>
+      </ion-label>
+      <ion-button fill="clear" slot="end" (click)="removeFromCart(item)">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </div>
+  </div>
+
+  <!-- Display selected items count and total price -->
+  <p>Selected items: {{ selectedItemCount }} Total price: ${{ totalPrice }}</p>
+
+  <!-- Button to buy items -->
+  <ion-button class="custom-button">Buy</ion-button>
+</ion-content>
+
+<app-custom-tab-bar></app-custom-tab-bar>

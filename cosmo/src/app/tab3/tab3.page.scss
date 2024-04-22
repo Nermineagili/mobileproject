@@ -1,0 +1,95 @@
+ion-content {
+    --background: #D9D9D9;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%; /* Ensures the container takes up the full height of the ion-content */
+  }
+  
+  .image-container img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+  }
+  ion-button.custom-color {
+    --ion-color-base: #7B6CDB;
+    --ion-color-base-rgb: 123, 108, 219;
+    --ion-color-base-contrast: #ffffff;
+    --ion-color-base-contrast-rgb: 255, 255, 255;
+    --ion-color-base-shade: #665cc2;
+    --ion-color-base-tint: #8d7ae3;
+  }
+  ion-button.custom-color {
+    --ion-color-base: #7B6CDB;
+    --ion-color-base-contrast: #ffffff;
+    width: 100%;
+  }
+  .stylish {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+   
+  }
+  .custom-button {
+    --ion-color-base:#7B6CDB;
+    width: 100%;
+    font-size: 30px; /* Adjust font size as needed */
+    border-radius: 15px; /* Adjust border radius as needed */
+  }
+  
+  /* Optional: Adjust button container width */
+  .button-container {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the button container horizontally */
+  }
+  .custom-button1 {
+    --ion-color-base:DCDCDC;
+    width: 100%;
+    font-size: 30px; /* Adjust font size as needed */
+    border-radius: 15px; /* Adjust border radius as needed */
+  }
+  
+  /* Optional: Adjust button container width */
+  .button-container1 {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the button container horizontally */
+  }
+  .image-container {
+    position: relative;
+  }
+  .rectangular-image {
+    position: fixed;
+    top: -80px; /* Set top position */
+    right: 190px;
+    width: 70px; /* Set width */
+    height: 1000px; /* Set height */
+    background-color: #7B6CDB; /* Backge image by 45 degrees */
+    transform: rotate(150deg);
+  }
+  
+
+  .rectangular-image1 {
+    position: fixed;
+    top: -80px; /* Set top position */
+    left: 170.9px; /* Set left position */
+    width: 70px; /* Set width */
+    height: 1000px; /* Set height */
+    background-color:  #EE93CE7D;
+    ; /* Background color */
+    transform: rotate(210deg); /* Rotate the image by -38.83 degrees */
+  }
+  
+  .login-link {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-text {
+    color:#000000
+    ; /* Define custom text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Optionally, make the text bold */
+    font-size: 30px; /* Change the font size to 18 pixels */
+
+  }

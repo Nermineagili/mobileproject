@@ -1,0 +1,58 @@
+<ion-content [fullscreen]="true" class="background-color">
+  <div class="login-container">
+    <button (click)="goToLoginPage()" class="back-button" fill="clear">
+      <ion-icon name="arrow-back"></ion-icon>
+    </button>
+    <span class="login-text"></span>
+  </div>
+  <div class="signup-text-container">
+    <p class="signup-text">Create an account </p><br>
+    <p class="signup-text">with email</p>
+  </div>
+
+  <!-- Rectangular white boxes for input fields -->
+  <div class="input-field-container">
+    <div class="input-label">First name:</div>
+    <ion-input class="input-field" placeholder="First name"></ion-input>
+  </div>
+  <div class="input-field-container">
+    <div class="input-label">Last name:</div>
+    <ion-input class="input-field" placeholder="Last name"></ion-input>
+  </div>
+  <div class="input-field-container">
+    <div class="input-label">Email:</div>
+    <ion-input class="input-field" placeholder="Email"></ion-input>
+  </div>
+  <div class="input-field-container">
+    <div class="input-label">Password:</div>
+    <ion-input class="input-field" placeholder="Password"></ion-input>
+  </div>
+
+  <!-- Radio buttons for account type -->
+  <ion-radio-group value="client" style="display: flex; flex-direction: column; align-items: flex-start; margin-top: 20px;">
+    <ion-radio value="client" class="clientcolor" style="--color-checked: #7B6CDB; --color-unchecked: #7B6CDB;">Client</ion-radio><br />
+    <ion-radio value="seller" class="sellercolor" style="--color-checked: #7B6CDB; --color-unchecked: #7B6CDB;">Seller</ion-radio><br />
+  </ion-radio-group>
+
+  <!-- Checkbox for terms agreement -->
+  <div class="checkbox-container">
+    <ion-checkbox class="checkbox" [(ngModel)]="agreeTerms" style="--background: #7B6CDB; --border-color: #7B6CDB;"></ion-checkbox>
+    <ion-label class="checkbox-label">I agree to the Terms & Conditions And Privacy Policy</ion-label>
+  </div>
+  
+  <ion-button  class="custom-button">Create account</ion-button>
+   
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">signup</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <!-- "Already have an account? Log in" section -->
+    <div class="login-link-container">
+      <span class="already-have-account">Already have an account? </span>
+      <a class="login-link" (click)="goToLoginPage()">Log in</a>
+    </div>
+ 
+    
+</ion-content>

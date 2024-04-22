@@ -1,0 +1,96 @@
+/* src/app/tab1/tab1.page.scss */
+
+.background-color {
+  --background: #D9D9D9;
+}
+
+ion-content.background-color ion-searchbar {
+  --ion-background-color: white !important; /* Change background color to white */
+  --ion-color-base: black !important; /* Change base color to black */
+}
+
+
+ion-searchbar.custom-search-bar {
+  --ion-color-base: black; /* Change text color to black */
+}
+
+ion-searchbar.custom-search-bar .searchbar-input {
+  color: black; /* Change input text color to black */
+}
+
+ion-searchbar.custom-search-bar .searchbar-placeholder {
+  color: black !important; /* Change placeholder color to black */
+}
+/* styles.scss (global styles) */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items to each end of the container */
+}
+
+.search-heading {
+  color: black;
+  font-size: 18px;
+  text-align: center; /* Center align the text */
+  margin-top: 20px;
+  flex-grow: 1; /* Allow the heading to grow and take up remaining space */
+}
+.search-bar {
+  flex-grow: 1; /* Allow the search bar to grow and take up remaining space */
+  max-width: calc(100% - 40px); /* Make the search bar take up available space, minus the width of the cart button */
+}
+
+.cart-button {
+  font-size: 24px; /* Make the button a little bit bigger */
+  color: black; 
+  background-color: white;
+  width: 40px; /* Set the width to 40px */
+  height: 40px; /* Set the height to 40px */
+  border-radius: 12px; 
+}
+
+
+.cart-icon {
+  font-size: 24px; /* Make the icon a little bit bigger */
+}
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  width: calc(50% - 4px); /* Two images per row with some space between */
+  margin-bottom: 20px;
+  margin-top: 20px;/* Add some bottom margin for spacing */
+  border-radius: 12px; /* Add corner radius */
+  overflow: hidden; /* Ensure that overflow content is hidden */
+  display: flex; /* Use Flexbox for alignment */
+  justify-content: center; /* Center items horizontally */
+}
+
+.product img {
+  width: 175px; /* Set a fixed width for the image */
+  height: 250px; /* Set a fixed height for the image */
+  object-fit: cover; /* Maintain aspect ratio and fill container */
+  border-radius: 12px; /* Apply the same corner radius to the image */
+}
+
+.heart-button-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.heart-button {
+  background-color: #D9D9D9; /* Set the background color */
+  color: white; /* Text color */
+}
+
+
+
+
+
+

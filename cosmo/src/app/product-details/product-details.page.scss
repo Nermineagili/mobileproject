@@ -1,0 +1,35 @@
+/* product-details.page.scss */
+
+.product-image {
+    max-width: 300px; /* Set the maximum width of the image */
+    max-height: 350px; /* Set the maximum height of the image */
+    display: block; /* Ensure the image is a block element */
+    margin: auto; /* Center the image horizontally */
+    border-radius: 8px; /* Add corner radius to the image */
+  }
+  .background-color {
+    --background: #D9D9D9;
+  }
+  ion-button.custom-button {
+    --background: #7B6CDB;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    // Background color // Background color
+    color: white; // Text color
+    
+  }
+  .custom-button {
+    margin: 20px auto; /* Ajoute un espace en haut et en bas et centre horizontalement */
+    width: 90%; /* Largeur maximale */
+    max-width: 400px; /* Largeur maximale de 400px */
+    border-radius: 20 px;
+  }
+  ion-icon {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white; /* White color for the icon */
+  }
+  

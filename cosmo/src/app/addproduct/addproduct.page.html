@@ -1,0 +1,26 @@
+<ion-header>
+  <!-- Header content goes here if needed -->
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="title">
+    <h4>Add product</h4>
+  </div>
+
+  <div class="input-box1">
+    <ion-input placeholder="Name" class="primary-input"></ion-input>
+  </div>
+  <div class="input-box2">
+    <ion-input placeholder="Price" class="primary-input"></ion-input>
+  </div>
+  <div class="input-box1">
+    <ion-input placeholder="Desciption" class="primary-input"></ion-input>
+  </div>
+  <div class="file-input-container">
+    <input type="file" id="fileInput" class="file-input" (change)="onFileChange($event)" />
+    <label for="fileInput" class="custom-file-input">Choose image</label>
+  </div>
+  
+  
+  <ion-button class="custom-button" expand="block">Add</ion-button>
+</ion-content>
